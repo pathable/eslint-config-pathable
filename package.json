@@ -1,12 +1,11 @@
 {
   "name": "eslint-config-pathable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint configuration for Pathable's projects",
   "main": "index.js",
   "repository": "https://github.com/pathable/pathable-eslint-config.git",
   "license": "MIT",
   "dependencies": {
-    "@meteorjs/eslint-config-meteor": "^1.0.5",
     "babel-eslint": "^8.2.1",
     "eslint": "^4.17.0",
     "eslint-config-airbnb": "^16.1.0",

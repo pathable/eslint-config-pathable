@@ -1,11 +1,5 @@
 module.exports = {
-  extends: [
-    'airbnb',
-    'plugin:prettier/recommended',
-    'prettier',
-    'plugin:meteor/recommended',
-    '@meteorjs/eslint-config-meteor'
-  ],
+  extends: ['airbnb', 'plugin:prettier/recommended', 'prettier'],
   env: {
     meteor: true,
     node: true,
