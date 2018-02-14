@@ -1,5 +1,5 @@
 {
-  "name": "pathable-eslint-config",
+  "name": "eslint-config-pathable",
   "version": "1.0.0",
   "description": "ESLint configuration for Pathable's projects",
   "main": "index.js",
