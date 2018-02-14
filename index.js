@@ -7,6 +7,16 @@ module.exports = {
   },
   rules: {
     'class-methods-use-this': 'off',
+    'comma-dangle': [
+      'error',
+      {
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'never'
+      }
+    ],
     'constructor-super': 'off',
     'max-len': [
       'error',
@@ -19,6 +29,7 @@ module.exports = {
       }
     ],
     'global-require': 'off',
+    'no-bitwise': ['error', { allow: ['~'] }],
     'no-class-assign': 'off',
     'no-confusing-arrow': 'off',
     'no-continue': 'off',
@@ -45,17 +56,31 @@ module.exports = {
     'import/no-mutable-exports': 'off',
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
+    'jsx-a11y/alt-text': 'off',
+    'jsx-a11y/anchor-has-content': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/iframe-has-title': 'off',
+    'jsx-a11y/label-has-for': 'off',
+    'jsx-a11y/mouse-events-have-key-events': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
+    'jsx-a11y/no-noninteractive-element-interactions': 'off',
     'react/default-props-match-prop-types': 'off',
     'react/jsx-closing-tag-location': 'off',
     'react/forbid-prop-types': 'off',
     'react/jsx-indent': 'off',
     'react/jsx-filename-extension': 'off',
     'react/jsx-pascal-case': 'off',
+    'react/no-array-index-key': 'off',
+    'react/no-danger': 'off',
+    'react/jsx-no-comment-textnodes': 'off',
     'react/no-find-dom-node': 'off',
     'react/no-render-return-value': 'off',
+    'react/no-string-refs': 'off',
     'react/no-unused-state': 'off',
     'react/no-unused-prop-types': 'off',
     'react/require-default-props': 'off',
+    'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
     'react/prefer-es6-class': 'never'
   },
   parser: 'babel-eslint',
