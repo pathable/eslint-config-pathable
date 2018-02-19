@@ -1,6 +1,7 @@
 module.exports = {
   extends: ['airbnb', 'plugin:prettier/recommended', 'prettier'],
   env: {
+    browser: true,
     meteor: true,
     node: true,
     mocha: true
@@ -37,7 +38,6 @@ module.exports = {
     'no-mixed-operators': 'off',
     'no-prototype-builtins': 'off',
     'no-plusplus': 'off',
-    'no-undef': 'off',
     'no-underscore-dangle': 'off',
     'no-useless-escape': 'off',
     'no-restricted-globals': 'off',
