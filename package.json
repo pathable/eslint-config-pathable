@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pathable",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ESLint configuration for Pathable's projects",
   "main": "index.js",
   "repository": "https://github.com/pathable/pathable-eslint-config.git",

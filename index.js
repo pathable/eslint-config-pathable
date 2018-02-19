@@ -4,7 +4,8 @@ module.exports = {
     browser: true,
     meteor: true,
     node: true,
-    mocha: true
+    mocha: true,
+    jest: true
   },
   rules: {
     'class-methods-use-this': 'off',
