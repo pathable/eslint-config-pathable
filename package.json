@@ -1,10 +1,13 @@
 {
-  "name": "eslint-config-pathable",
-  "version": "1.0.5",
+  "name": "@pathable/eslint-config-pathable",
+  "version": "1.0.6",
   "description": "ESLint configuration for Pathable's projects",
   "main": "index.js",
-  "repository": "https://github.com/pathable/pathable-eslint-config.git",
+  "repository": "https://github.com/pathable/eslint-config-pathable.git",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "babel-eslint": "^8.2.1",
     "eslint": "^4.17.0",
