@@ -34,6 +34,7 @@ module.exports = {
     'no-bitwise': ['error', { allow: ['~'] }],
     'no-class-assign': 'off',
     'no-confusing-arrow': 'off',
+    "no-console": "on",
     'no-continue': 'off',
     'no-empty-pattern': 'off',
     'no-mixed-operators': 'off',
