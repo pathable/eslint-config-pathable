@@ -1,11 +1,15 @@
 module.exports = {
   extends: ['airbnb', 'plugin:prettier/recommended', 'prettier'],
+   "plugins": [
+    "cypress"
+  ],
   env: {
     browser: true,
     meteor: true,
     node: true,
     mocha: true,
-    jest: true
+    jest: true,
+    "cypress/globals": true
   },
   rules: {
     'class-methods-use-this': 'off',
