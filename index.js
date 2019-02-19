@@ -84,6 +84,7 @@ module.exports = {
     "react/no-unused-state": "off",
     "react/no-unused-prop-types": "off",
     "react/require-default-props": "off",
+    "react/jsx-no-target-blank": "off",
     "react/prefer-stateless-function": [
       "error",
       { ignorePureComponents: true }
