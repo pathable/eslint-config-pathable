@@ -1,6 +1,6 @@
 module.exports = {
   extends: ["airbnb", "plugin:prettier/recommended", "prettier"],
-  plugins: ["cypress", "pathable"],
+  plugins: ["cypress", "pathable", "react-hooks"],
   env: {
     browser: true,
     meteor: true,
@@ -82,6 +82,7 @@ module.exports = {
     "react/no-render-return-value": "off",
     "react/no-string-refs": "off",
     "react/no-unused-state": "off",
+    "react/prop-types": "off",
     "react/no-unused-prop-types": "off",
     "react/require-default-props": "off",
     "react/jsx-no-target-blank": "off",
