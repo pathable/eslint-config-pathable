@@ -98,10 +98,9 @@ module.exports = {
   parser: "babel-eslint",
   parserOptions: {
     allowImportExportEverywhere: true,
-    ecmaVersion: 6,
+    ecmaVersion: 10,
     ecmaFeatures: {
       jsx: true,
-      experimentalObjectRestSpread: true
     }
   }
 };

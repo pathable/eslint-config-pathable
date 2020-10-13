@@ -1,6 +1,6 @@
 {
   "name": "@pathable/eslint-config-pathable",
-  "version": "1.0.19",
+  "version": "2.0.0",
   "description": "ESLint configuration for Pathable's projects",
   "main": "index.js",
   "repository": "https://github.com/pathable/eslint-config-pathable.git",
@@ -9,17 +9,17 @@
     "access": "public"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.2",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-cypress": "^2.0.1",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-meteor": "^4.2.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-meteor": "^7.2.1",
     "eslint-plugin-pathable": "^0.0.4",
-    "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-react": "^7.7.0",
-    "eslint-plugin-react-hooks": "^1.6.0"
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react-hooks": "^4.1.2"
   }
 }
