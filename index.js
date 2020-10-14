@@ -90,7 +90,7 @@ module.exports = {
       "error",
       { ignorePureComponents: true }
     ],
-    "react/prefer-es6-class": "never",
+    "react/prefer-es6-class": "off",
     "pathable/no-import-root-pathable": "error",
     "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
     "react-hooks/exhaustive-deps": "warn" // Checks effect dependencies
