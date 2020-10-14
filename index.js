@@ -50,6 +50,7 @@ module.exports = {
     "prefer-destructuring": "off",
     "prefer-promise-reject-errors": "off",
     "import/export": "off",
+    "import/order": "warn",
     "import/extensions": "off",
     "import/first": "off",
     "import/no-duplicates": "off",
@@ -99,6 +100,8 @@ module.exports = {
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "warn",
     "react/button-has-type": "off",
+    "prefer-object-spread": "warn",
+    "no-else-return": "warn",
   },
   parser: "babel-eslint",
   parserOptions: {
