@@ -50,7 +50,7 @@ module.exports = {
     "prefer-destructuring": "off",
     "prefer-promise-reject-errors": "off",
     "import/export": "off",
-    "import/order": "warn",
+    "import/order": "off",
     "import/extensions": "off",
     "import/first": "off",
     "import/no-duplicates": "off",
