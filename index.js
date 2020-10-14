@@ -98,6 +98,7 @@ module.exports = {
     "react/jsx-wrap-multilines": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "warn",
+    "react/button-has-type": "off",
   },
   parser: "babel-eslint",
   parserOptions: {
