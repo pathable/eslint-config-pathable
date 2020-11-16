@@ -1,6 +1,6 @@
 module.exports = {
   extends: ["airbnb", "plugin:prettier/recommended", "prettier"],
-  plugins: ["cypress", "pathable", "react-hooks"],
+  plugins: ["cypress", "pathable", "react-hooks", "no-only-tests"],
   env: {
     browser: true,
     meteor: true,
@@ -109,6 +109,7 @@ module.exports = {
     "prefer-object-spread": "warn",
     "no-else-return": "warn",
     "import/no-cycle": "warn",
+    "no-only-tests/no-only-tests": "error",
   },
   parser: "babel-eslint",
   parserOptions: {
