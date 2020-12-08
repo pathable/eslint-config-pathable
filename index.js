@@ -1,6 +1,6 @@
 module.exports = {
   extends: ["airbnb", "plugin:prettier/recommended", "prettier"],
-  plugins: ["cypress", "pathable", "react-hooks"],
+  plugins: ["cypress", "pathable", "react-hooks", "no-only-tests"],
   env: {
     browser: true,
     meteor: true,
@@ -50,6 +50,7 @@ module.exports = {
     "prefer-destructuring": "off",
     "prefer-promise-reject-errors": "off",
     "import/export": "off",
+    "import/order": "off",
     "import/extensions": "off",
     "import/first": "off",
     "import/no-duplicates": "off",
@@ -66,9 +67,11 @@ module.exports = {
     "jsx-a11y/click-events-have-key-events": "off",
     "jsx-a11y/iframe-has-title": "off",
     "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/label-has-associated-control": "off",
     "jsx-a11y/mouse-events-have-key-events": "off",
     "jsx-a11y/no-static-element-interactions": "off",
     "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/control-has-associated-label": "warn",
     "react/default-props-match-prop-types": "off",
     "react/jsx-closing-tag-location": "off",
     "react/forbid-prop-types": "off",
@@ -90,18 +93,30 @@ module.exports = {
       "error",
       { ignorePureComponents: true }
     ],
-    "react/prefer-es6-class": "never",
+    "react/prefer-es6-class": "off",
+    "react/jsx-curly-newline": "off", // prettier takes care of this
+    "react/no-deprecated": "warn", // we need to turn this on soon
+    "react/state-in-constructor": "off", // we need to remove this from here soon - ie. turn on
+    "react/static-property-placement": "off", // we need to remove this from here soon - ie. turn on
     "pathable/no-import-root-pathable": "error",
     "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
-    "react-hooks/exhaustive-deps": "warn" // Checks effect dependencies
+    "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
+    "react/jsx-wrap-multilines": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "warn",
+    "react/button-has-type": "off",
+    "react/destructuring-assignment": "warn",
+    "prefer-object-spread": "warn",
+    "no-else-return": "warn",
+    "import/no-cycle": "warn",
+    "no-only-tests/no-only-tests": "error",
   },
   parser: "babel-eslint",
   parserOptions: {
     allowImportExportEverywhere: true,
-    ecmaVersion: 6,
+    ecmaVersion: 10,
     ecmaFeatures: {
       jsx: true,
-      experimentalObjectRestSpread: true
     }
   }
 };
