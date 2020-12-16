@@ -1,6 +1,6 @@
 {
   "name": "@pathable/eslint-config-pathable",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "ESLint configuration for Pathable's projects",
   "main": "index.js",
   "repository": "https://github.com/pathable/eslint-config-pathable.git",
@@ -19,7 +19,7 @@
     "eslint-plugin-meteor": "^7.2.2",
     "eslint-plugin-no-only-tests": "^2.4.0",
     "eslint-plugin-pathable": "^0.0.4",
-    "eslint-plugin-prettier": "^3.2.0",
+    "eslint-plugin-prettier": "^3.3.0",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0"
   }

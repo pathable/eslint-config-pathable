@@ -103,10 +103,10 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
     "react/jsx-wrap-multilines": "off",
     "react/jsx-one-expression-per-line": "off",
-    "react/jsx-props-no-spreading": "warn",
+    "react/jsx-props-no-spreading": "off",
     "react/button-has-type": "off",
     "react/destructuring-assignment": "warn",
-    "prefer-object-spread": "warn",
+    "prefer-object-spread": "off",
     "no-else-return": "warn",
     "import/no-cycle": "warn",
     "no-only-tests/no-only-tests": "error",
