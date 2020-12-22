@@ -105,7 +105,7 @@ module.exports = {
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
     "react/button-has-type": "off",
-    "react/destructuring-assignment": "warn",
+    "react/destructuring-assignment": "off",
     "prefer-object-spread": "off",
     "no-else-return": "warn",
     "import/no-cycle": "warn",
