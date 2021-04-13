@@ -108,7 +108,7 @@ module.exports = {
     "react/destructuring-assignment": "off",
     "prefer-object-spread": "off",
     "no-else-return": "warn",
-    "import/no-cycle": "warn",
+    "import/no-cycle": "off",
     "no-only-tests/no-only-tests": "error",
   },
   parser: "babel-eslint",
